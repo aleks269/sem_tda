@@ -1,7 +1,7 @@
 [project]
-name = "barcode"
+name = "sem_tda"
 version = "0.1.0"
-description = "The project for calculating TDA data using AFM data"
+description = "TDA pipeline for AFM/SEM surface morphology analysis"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -13,7 +13,6 @@ dependencies = [
     "ripser>=0.6.12",
     "ruff>=0.9.10",
     "simple-term-menu>=1.6.6",
-    "statsmodels>=0.14.4",
 ]
 
 [tool.ruff]
@@ -28,4 +27,5 @@ convention = "numpy"
 [dependency-groups]
 dev = [
     "pytest>=8.3.5",
+    "statsmodels>=0.14.4",
 ]
